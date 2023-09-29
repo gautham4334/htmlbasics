@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <div>
+        <form action="" method="get" id="getid">
+            <label for="Name">Name</label>
+            <input maxlength="25" type="text" name="Name" placeholder="Name" required>
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" autofocus="autofocus" name="email" placeholder="Email" value=" test@example.com " required>
+            <br>
+            <label for="Password">Password</label>
+            <input type="password" minlength="6" name="" id="" placeholder="Password">
+            <br>
+            <label for="Category">Select-Category</label>
+
+            <select required name="Select-Category" id="" placeholder="Select Category">
+                <option value="" hidden>Select-Category</option>
+                <option  value="student">Student</option>
+                <option value="Employee">Employee</option>
+                <option value="Freelancer" selected>Freelancer</option>
+            </select>
+            <br>
+            <label for="Event-date">Event-Date</label>
+
+            <input type="date" name="Event-date" placeholder="Event-date" required>
+            <br>
+            <label for="Number of tickets">Number of Tickets</label>
+            <br>
+
+
+                <Label>1 Ticket</Label>
+                <input type="radio" name="Number of tickets" id="" >
+                <label>2 Ticket</label>
+                <input type="radio" name="Number of tickets" id="" checked>
+                <label>3 Tickets</label>
+                <input type="radio" name="Number of tickets" id="">
+        
+
+            <br>
+
+            <label for="Online-payment"> Online-payment</label>
+            <input required name="Online-payment" type="checkbox" placeholder="Online payment">
+            <br>
+            <label for="Notes" placeholder="Notes">Notes</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="10">....</textarea>
+            <br>
+            <input type="submit" name="" id="">
+        </form>
+    </div>
+
+</body>
+
+</html>
